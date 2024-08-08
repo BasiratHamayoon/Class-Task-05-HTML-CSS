@@ -78,3 +78,32 @@ nav{
     width: 350px;
     height: 160px;
 }
+@media(max-width: 570px){
+    .logo img{
+        width: 80px;
+        height: 80px;
+        margin-top: 17px;
+    }
+    .search-box input{
+        width: 200px;
+        height: 25px;
+    }
+    .Chart-box img{
+        width: 20px;
+        height: 20px;
+        margin-left: 0px;
+    }
+    .search-box i{
+        height: 19px;
+    }
+}
+@media(max-width: 450px){
+    .search-box input{
+        width: 140px;
+        height: 20px;
+    }
+    .search-box i{
+        height: 17px;
+        padding-top: 3px;
+    }
+}
