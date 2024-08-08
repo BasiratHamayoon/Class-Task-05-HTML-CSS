@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(204, 204, 214);
+}
+nav{
+    background-color: rgb(102, 62, 245);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-top: -20px;
+}
+.search-box input{
+    margin-top: 30px;
+    width: 280px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+.search-box i{
+    background-color: rgb(240, 206, 14);
+    color: aliceblue;
+    height: 25px;
+    position: absolute;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    margin-left: -20px;
+    padding-right: 1px;
+    
+}
+.Chart-box img{
+    margin-top: 30px;
+    margin-left: 10px;
+}
