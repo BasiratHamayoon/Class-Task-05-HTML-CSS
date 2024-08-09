@@ -359,3 +359,38 @@ nav{
     font-size: 15px;
     font-weight: bold;
 }
+@media (max-width: 960px){
+    .watches-container p{
+     position: static; 
+     margin-top: 0px;
+     margin-left: 0px; 
+     margin-top: 7px;
+     text-align: center; 
+     font-size: 12px;
+    }
+    .watches-container div{
+        width: 170px;
+        height: 200px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .watches-container{
+        margin-bottom: 100px;
+    }
+}
+@media(max-width:450px){
+    .watches-container{
+        width: 98%;
+    }
+    .watches-container img{
+        width: 110px;
+        height: 120px;
+    }
+    .watches-container div{
+        width: 150px;
+        height: 180px;
+    }
+    .watches-container p{
+        font-size: 12px;
+    }
+}
