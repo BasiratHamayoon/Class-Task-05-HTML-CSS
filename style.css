@@ -266,3 +266,15 @@ nav{
     padding: 0px;
     margin: 0px;
 }
+@media(max-width: 1045px){
+    .phone-container{
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 300px;
+    }
+}
+@media(max-width: 550px){
+    .phone-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 600px;
+    }
+}
